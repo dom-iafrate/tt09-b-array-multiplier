@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project utilizes full adders to create a 4x4 array multiplier. It takes an input of 2 4bit signals and full adds the individual bits to create partial products, which are then full added together to create a final product. Its output is a single 8bit signal which represents the product of the two input signals.
 
 ## How to test
 
-Explain how to use your project
+Cd into the test folder and edit the test cases that represent the numbers to be multiplied, then confirm the module outputs the same result as the expected product.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A I believe
