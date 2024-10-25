@@ -5,7 +5,6 @@
 
 `default_nettype none
 
-m'timescale 1ns / 1ps
 
 module tt_um_multiplier (
     input  wire [7:0] ui_in,    // Dedicated inputs
