@@ -17,4 +17,4 @@ Cd into the test folder and edit the test cases that represent the numbers to be
 
 ## External hardware
 
-N/A I believe
+N/A I believe not
