@@ -11,7 +11,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 This project utilizes full adders to create a 4x4 array multiplier. It takes an input of 2 4-bit signals (call them m and q) and multiplies them together to produce an 8-bit product (call it p). Firstly, each bit of m is ANDed with each bit of q, which creates a set of partial products. These partial products are then grouped into rows for each bit of q, making the diagram far more readable and organized. The partial products are aligned based on their binary place values, and each column corresponds to a bit position in the final 8-bit product, with the columns further to the left representing more significant bits. Then, the full adders are used to sum the bits in each column along with any carry-in from the column before. Logically, the adding of the partial products begins with the rightmost column, allowing for any carry to be passed up to a more significant bit. Because each column represents a bit in the final product, the sum of each column is simply the bit in the product, and once all columns are added, the final 8-bit product is obtained. The schematic diagram is shown below.
 
-'/c/Users/Dominic Iafrate/Downloads/4x4_mult.pdf'
+<img width="445" alt="Block Diagram" src="https://github.com/user-attachments/assets/405d36bc-f5ea-4437-b036-fd980f03c85d">
 
 ## How to test
 
